@@ -1,0 +1,19 @@
+body {
+
+    background: url(Background.svg);
+    background-size: cover;
+    
+}
+.navbar-nav {
+    font-family: 'Lora', serif;
+}
+.jumbotron{
+    
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.display-4{
+    font-family: 'Lora', serif;
+}
+

@@ -1,0 +1,36 @@
+body {
+
+    background: url(Background.svg);
+    background-size: cover;
+    
+}
+.jumbotron{
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+.card{
+    background-color: black;
+}
+.display-4{
+    color: white;
+    font-family: 'Lora', serif;
+}
+.lead{
+    color: white;
+}
+img {
+    display: block;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
