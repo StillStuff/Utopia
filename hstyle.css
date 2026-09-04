@@ -1,34 +1,19 @@
-body {
-    background: url(Background.svg);
-    background-size: cover;
-}
-.navbar-brand {
-    margin-left: 10;
-}
-.navbar-nav {
-    font-family: 'Lora', serif;
-}
-.card-title{
-    font-size: 30;
-    font-family: 'Lora', serif;
-}
-.card-body{
-    background-color: rgb(250, 250, 250);
-    
-}
-.display-4{
-    font-family: 'Lora', serif;
-}
-#game-choice{
-    
-    width: 80%;
-    height: 50%;
-    margin: 0 auto;
-    margin-top: 4%;
+/* Home page overrides. Loaded after base.css. */
+
+.card-title {
+    font-size: 30px;
 }
 
-.jumbotron{
-    
-    margin-top: 6%;
-    margin-left: 10%;
+.card-body {
+    background-color: rgb(250, 250, 250);
+}
+
+.hero {
+    margin-right: 0;
+}
+
+#game-choice {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4%;
 }

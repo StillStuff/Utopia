@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--Custom Styles-->
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <link rel="stylesheet" type="text/css" href="page.css">
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <title>FAQ</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container-fluid">
+            <!--Brand Name-->
+          <a class="navbar-brand" href="index.html">Utopia</a>
+          <!--Icon-->
+        <a class="navbar-brand" href="index.html">
+            <img src="Group 1.svg" alt="Utopia logo" width="40" height="40">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="Home.html">Home</a>
+                </li>
+              <li class="nav-item">
+                    <a class="nav-link" href="Media.html">Media</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Brands.html">Affiliated Brands</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Community.html">Community</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="FAQ.html">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> <!--END navbar code-->
+
+      <!--Hero-->
+      <div class="hero p-5 rounded-3">
+          <h1 class="display-4">FAQ</h1>
+          <p class="lead">What Utopia is, how the recycling loop pays out, and what actually exists today.</p>
+      </div><!--END hero-->
+
+      <div class="container pb-5">
+        <div class="card panel">
+          <div class="card-body">
+
+            <div class="accordion" id="faqAccordion">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeadingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne" aria-expanded="true" aria-controls="faqOne">
+                    What is Utopia?
+                  </button>
+                </h2>
+                <div id="faqOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Two games with a recycling system built into their mechanics. One is a life simulation, the other a city management sim, and both are framed as research projects run by scientists with questionable judgement. Recycling in the real world is what funds your progress in either.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeadingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+                    How does recycling earn me anything?
+                  </button>
+                </h2>
+                <div id="faqTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Participating packaging carries a code. You recycle the item, scan the code with the app, and the value lands in your account as in-app currency. The idea is to attach an immediate, visible reward to an act that normally gives you nothing back.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeadingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+                    What can I scan?
+                  </button>
+                </h2>
+                <div id="faqThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Products from affiliated brands, which carry a Utopia code in their packaging artwork. Which products qualify changes with the quest rotation, so the list is worth checking before a shop.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeadingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqFour" aria-expanded="false" aria-controls="faqFour">
+                    What is the currency good for?
+                  </button>
+                </h2>
+                <div id="faqFour" class="accordion-collapse collapse" aria-labelledby="faqHeadingFour" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Two things. Cosmetics for your avatar and your city, and real coupons from affiliated brands. The first is why you keep playing; the second is why recycling pays for itself.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeadingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqFive" aria-expanded="false" aria-controls="faqFive">
+                    What are quests and achievements?
+                  </button>
+                </h2>
+                <div id="faqFive" class="accordion-collapse collapse" aria-labelledby="faqHeadingFive" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Quests rotate. Some ask you to recycle a particular sponsored product, others are ordinary in-game objectives, and they pay out in items or currency. Achievements are permanent milestones &mdash; hitting one unlocks a cosmetic that is not available any other way.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeadingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqSix" aria-expanded="false" aria-controls="faqSix">
+                    Can I share my avatar?
+                  </button>
+                </h2>
+                <div id="faqSix" class="accordion-collapse collapse" aria-labelledby="faqHeadingSix" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Yes. Avatars and progress export as images meant to be used as profile pictures on other platforms. See <a href="Community.html">Community</a>.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeadingSeven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqSeven" aria-expanded="false" aria-controls="faqSeven">
+                    Who is it for?
+                  </button>
+                </h2>
+                <div id="faqSeven" class="accordion-collapse collapse" aria-labelledby="faqHeadingSeven" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Teenagers and young adults &mdash; the group most likely to already be playing something on their phone, and least likely to have a reason to sort their rubbish.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeadingEight">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqEight" aria-expanded="false" aria-controls="faqEight">
+                    Can I play it right now?
+                  </button>
+                </h2>
+                <div id="faqEight" class="accordion-collapse collapse" aria-labelledby="faqHeadingEight" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Not yet. Utopia is a design concept &mdash; this site and the Figma prototype are what exist so far, and neither game is built. The clickable prototype is on the <a href="Media.html">Media</a> page.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
