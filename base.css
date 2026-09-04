@@ -1,0 +1,38 @@
+/* Shared across every page. Page-specific overrides live in the
+   per-page stylesheet loaded after this one. */
+
+body {
+    background: url(Background.svg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Brand palette, taken from the logo and background art */
+:root {
+    --utopia-purple: #60285D;
+    --utopia-mint: #9CFCA6;
+    --utopia-yellow: #F6FB06;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+}
+
+.navbar-nav {
+    font-family: 'Lora', serif;
+}
+
+.display-4 {
+    font-family: 'Lora', serif;
+}
+
+.card-title {
+    font-family: 'Lora', serif;
+}
+
+/* Replaces Bootstrap 4's .jumbotron, which no longer exists in v5 */
+.hero {
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
